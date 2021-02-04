@@ -5,5 +5,4 @@
 # QQ:915155536
 # File :demo5.py
 #  ===========================
-print('hello !')
-print('第二次提交！')
+print('hahah2')
