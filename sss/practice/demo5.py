@@ -5,4 +5,5 @@
 # QQ:915155536
 # File :demo5.py
 #  ===========================
-print('hahah2')
+
+print(chr(97),chr(122))
