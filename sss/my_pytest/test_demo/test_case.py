@@ -50,6 +50,7 @@ class TestDemo:
     teardown_method
     teardown_class
     """
+
     def setup(self):
         print('这是类中的setup')
 
@@ -70,6 +71,7 @@ class TestDemo:
 
     def test_c01(self):
         print('这是类中的test_c01')
+        assert 2 > 3 ,'测试不通过！'
 
     def test_c02(self):
         print('这是类中的test_c02')
