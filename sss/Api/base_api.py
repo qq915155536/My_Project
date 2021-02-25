@@ -26,6 +26,8 @@ def open_browser(browser_type):
         driver = webdriver.Chrome(options=options)
         driver.implicitly_wait(10)
     return driver
+
+
 class WebApi:
     """
     这是webui关键字驱动类，生成浏览器对象
@@ -59,10 +61,9 @@ class WebApi:
     def my_send_keys(self, location_type, location_content, text):
         self.my_location(location_type, location_content).send_keys(text)
 
-    #清除方法
-    def my_clear(self,location_type,location_content):
-        self.my_location(location_type,location_content).clear()
-
+    # 清除方法
+    def my_clear(self, location_type, location_content):
+        self.my_location(location_type, location_content).clear()
 
     # 强制等待方法
     def my_wait(self, s):
@@ -71,8 +72,9 @@ class WebApi:
     # 显示等待方法
     def assert_wait(self, location_type, location_content):
         try:
-            return WebDriverWait(self.driver, 5, 0.2).until(lambda e1: self.my_location(location_type, location_content),
-                                                        message='显示等待没有发现此元素')
+            return WebDriverWait(self.driver, 5, 0.2).until(
+                lambda e1: self.my_location(location_type, location_content),
+                message='显示等待没有发现此元素')
         except:
             return False
 
@@ -106,4 +108,9 @@ if __name__ == '__main__':
     my_browser.my_send_keys('id', 'kw', '测试')
     my_browser.my_click('id', 'su')
     my_browser.my_wait(3)
-    my_browser.my_assert('xpath', '//div[@class="search_tool"]', '搜索工具')
+    res = my_browser.my_assert('xpath', '//div[@class="search_tool"]', '搜索工具')
+    if res:
+        print('执行成功!')
+        my_browser.my_quit_browser()
+    else:
+        print('执行失败！')
