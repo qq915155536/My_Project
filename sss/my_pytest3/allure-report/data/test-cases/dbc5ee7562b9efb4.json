@@ -1,0 +1,390 @@
+{
+  "uid" : "dbc5ee7562b9efb4",
+  "name" : "test_03",
+  "fullName" : "test_case#test_03",
+  "historyId" : "5c1cb06c1153d91e2e23f5f3ccf9466d",
+  "time" : {
+    "start" : 1618129260803,
+    "stop" : 1618129260803,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2 < 1",
+  "statusTrace" : "def test_03():\n>       assert 2 < 1\nE       assert 2 < 1\n\ntest_case.py:20: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5SVAUJU"
+  }, {
+    "name" : "thread",
+    "value" : "8456-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "94621957948ae13",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1618128545009,
+        "stop" : 1618128545009,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3764031c8366a2cd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1618048097956,
+        "stop" : 1618048097956,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "846c2904b96e544d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617814505112,
+        "stop" : 1617814505112,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "65488b354abab8d2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617813582236,
+        "stop" : 1617813582236,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6f4b050d2d3e4b29",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617813475691,
+        "stop" : 1617813475691,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bde037203c8bcf0b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617813213100,
+        "stop" : 1617813213100,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6af85797f6334b3f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617813067325,
+        "stop" : 1617813067325,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3a5a7b4bf7c1fbb0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617812461238,
+        "stop" : 1617812461238,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "664b03615747f921",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617811844514,
+        "stop" : 1617811844515,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cd11f7db28fd6180",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617811621643,
+        "stop" : 1617811621644,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ed6829d5891947d8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617811476679,
+        "stop" : 1617811476679,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cbe4e76e95dd2bb3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617811157308,
+        "stop" : 1617811157308,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "320676c86d317eca",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617810823210,
+        "stop" : 1617810823210,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4d8a21ffb807254",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617810789579,
+        "stop" : 1617810789579,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "487e9b38da183660",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617810643067,
+        "stop" : 1617810643067,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d68f04182260afb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617808863835,
+        "stop" : 1617808863836,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "893e2af54d3dbc95",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 < 1",
+      "time" : {
+        "start" : 1617807901111,
+        "stop" : 1617807901112,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 18,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "aecbe8d42e9feda",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/29/allure/#testresult/aecbe8d42e9feda",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1618128545009,
+          "stop" : 1618128545009,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1679093536fbae74",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/28/allure/#testresult/1679093536fbae74",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1618048097956,
+          "stop" : 1618048097956,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "73b0230a738bafc7",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/27/allure/#testresult/73b0230a738bafc7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617814505112,
+          "stop" : 1617814505112,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6c6efa8d20517b03",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/26/allure/#testresult/6c6efa8d20517b03",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617813582236,
+          "stop" : 1617813582236,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f21074063af8985d",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/25/allure/#testresult/f21074063af8985d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617813475691,
+          "stop" : 1617813475691,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b689d098d582ccf2",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/24/allure/#testresult/b689d098d582ccf2",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617813213100,
+          "stop" : 1617813213100,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a99f9e2bc0ceea95",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/23/allure/#testresult/a99f9e2bc0ceea95",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617813067325,
+          "stop" : 1617813067325,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "43a4d7dd5085c033",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/22/allure/#testresult/43a4d7dd5085c033",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617812461238,
+          "stop" : 1617812461238,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f7fb5949113a352a",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/21/allure/#testresult/f7fb5949113a352a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617811844514,
+          "stop" : 1617811844515,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b92260abacea0635",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/20/allure/#testresult/b92260abacea0635",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617811621643,
+          "stop" : 1617811621644,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "bce5a8916e71da53",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/19/allure/#testresult/bce5a8916e71da53",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617811476679,
+          "stop" : 1617811476679,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d60c216a707625a4",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/18/allure/#testresult/d60c216a707625a4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617811157308,
+          "stop" : 1617811157308,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a4ba94c8d37237a7",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/17/allure/#testresult/a4ba94c8d37237a7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617810823210,
+          "stop" : 1617810823210,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8a9347c2898fcd56",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/16/allure/#testresult/8a9347c2898fcd56",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617810789579,
+          "stop" : 1617810789579,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "388d3032b0e0b251",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/15/allure/#testresult/388d3032b0e0b251",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617810643067,
+          "stop" : 1617810643067,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6071011625ac0af5",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/14/allure/#testresult/6071011625ac0af5",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617808863835,
+          "stop" : 1617808863836,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "310d7893b8d314cc",
+        "reportUrl" : "http://localhost:8080/jenkins/job/just_for_test/13/allure/#testresult/310d7893b8d314cc",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 < 1",
+        "time" : {
+          "start" : 1617807901111,
+          "stop" : 1617807901112,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dbc5ee7562b9efb4.json",
+  "parameterValues" : [ ]
+}

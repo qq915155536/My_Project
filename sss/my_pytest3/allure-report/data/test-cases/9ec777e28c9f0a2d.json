@@ -1,0 +1,48 @@
+{
+  "uid" : "9ec777e28c9f0a2d",
+  "name" : "test_01",
+  "fullName" : "test_case#test_01",
+  "historyId" : "8e4bc93e64fe90d4d3759275b1da3a34",
+  "time" : {
+    "start" : 1617814505032,
+    "stop" : 1617814505033,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5SVAUJU"
+  }, {
+    "name" : "thread",
+    "value" : "1600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ec777e28c9f0a2d.json",
+  "parameterValues" : [ ]
+}

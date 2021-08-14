@@ -1,0 +1,50 @@
+{
+  "uid" : "65488b354abab8d2",
+  "name" : "test_03",
+  "fullName" : "test_case#test_03",
+  "historyId" : "5c1cb06c1153d91e2e23f5f3ccf9466d",
+  "time" : {
+    "start" : 1617813582236,
+    "stop" : 1617813582236,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2 < 1",
+  "statusTrace" : "def test_03():\n>       assert 2 < 1\nE       assert 2 < 1\n\ntest_case.py:20: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5SVAUJU"
+  }, {
+    "name" : "thread",
+    "value" : "9548-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65488b354abab8d2.json",
+  "parameterValues" : [ ]
+}
